@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 67.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* navigation bar start */
+
+nav,
+.navbar--item--one,
+.navbar--item--two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+}
+
+.navbar--item--one {
+  gap: 5rem;
+}
+
+.navbar--item--two {
+  gap: 2rem;
+  color: rgb(129, 124, 124);
+  font-size: 1.6rem;
+}
+
+.ul--items--navbar {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  color: rgb(129, 124, 124);
+}
+
+.li--item {
+  font-size: 1.6rem;
+}
+
+.snap--item {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+button {
+  width: 7rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  background-color: rgba(245, 245, 220, 0);
+}
+
+/* navigation bar end */
+
+/* header start */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  gap: 10rem;
+}
+
+.hero--image {
+  width: 50rem;
+  height: 60rem;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+.title--items {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.paragraph--div {
+  width: 30rem;
+}
+
+.paragraph--title--item {
+  font-size: 1.8rem;
+  color: rgb(129, 124, 124);
+}
+
+.button--two {
+  width: 10rem;
+  height: 3rem;
+  color: #fff;
+  background-color: #000;
+  border: 0;
+}
+
+.logo--items {
+  display: flex;
+  gap: 2rem;
+}
+
+.logo {
+  list-style: none;
+}
+/* header end */
