@@ -9,21 +9,25 @@ html {
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 /* navigation bar start */
 
-nav,
-.navbar--item--one,
-.navbar--item--two {
+nav
+ {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 4rem;
+}
+
+.navbar--item--one,
+.navbar--item--two{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar--item--one {
@@ -64,10 +68,12 @@ button {
 /* header start */
 header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding: 3rem;
-  gap: 10rem;
+  padding: 2.2rem 5.4rem;
+  gap: 5rem;
+  width: 100vw;
+  height: 100vh;
 }
 
 .hero--image {
