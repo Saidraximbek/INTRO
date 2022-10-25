@@ -5,26 +5,25 @@
 }
 
 html {
-  font-size: 67.5%;
+  font-size: 62.5%;
 }
 
 body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* navigation bar start */
 
-nav
- {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 4rem;
+  padding: 2rem 4rem;
 }
 
 .navbar--item--one,
-.navbar--item--two{
+.navbar--item--two {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,20 +64,21 @@ button {
 
 /* navigation bar end */
 
-/* header start */
-header {
+/* Hero start */
+.hero {
+  /* height: 80vh; */
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 2.2rem 5.4rem;
-  gap: 5rem;
-  width: 100vw;
-  height: 100vh;
 }
 
-.hero--image {
-  width: 50rem;
-  height: 60rem;
+.hero--container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 2.2rem 5.4rem;
+  gap: 5rem;
+  width: 130rem;
 }
 
 h1 {
@@ -89,6 +89,16 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 4rem;
+  width: 38%;
+}
+
+.img--items {
+  width: 38%;
+}
+
+.hero--image {
+  width: 100%;
+  height: auto;
 }
 
 .paragraph--div {
